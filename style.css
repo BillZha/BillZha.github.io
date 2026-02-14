@@ -11,10 +11,18 @@ font-family: "Times New Roman", Times, serif;
 
 /* 3. Top line layout: image left, name beside it */
 .topline {
-display: flex;
-align-items: center;
-gap: 0; /* we will use spaces inside the name as requested */
-margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 0; /* we will use spaces inside the name as requested */
+  margin-bottom: 16px;
+}
+
+/* limit image size */
+.topline img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .profile-pic {
@@ -34,4 +42,5 @@ margin-left: 24px;
 /* make links visible */
 a {
 text-decoration: underline;
+
 }
