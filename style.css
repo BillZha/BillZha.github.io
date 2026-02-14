@@ -1,0 +1,37 @@
+/* 2. Body Arial; headings Times New Roman */
+body {
+font-family: Arial, sans-serif;
+margin: 24px;
+line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: "Times New Roman", Times, serif;
+}
+
+/* 3. Top line layout: image left, name beside it */
+.topline {
+display: flex;
+align-items: center;
+gap: 0; /* we will use spaces inside the name as requested */
+margin-bottom: 16px;
+}
+
+.profile-pic {
+width: 60px;
+height: auto;
+margin-right: 16px;
+}
+.name em {
+font-style: italic;
+}
+
+/* 7b. Responsibilities: unordered list with a single indent */
+.single-indent {
+margin-left: 24px;
+}
+
+/* make links visible */
+a {
+text-decoration: underline;
+}
